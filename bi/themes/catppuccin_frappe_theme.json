@@ -1,0 +1,72 @@
+{
+  "name": "Catppuccin Frappe Final",
+  "background": "#292C3C",
+  "foreground": "#C6D0F5",
+  "tableAccent": "#8CAAEE",
+
+  "dataColors": [
+    "#232634",
+    "#292C3C",
+    "#303446",
+    "#414559",
+    "#51576D",
+    "#626880",
+    "#737994",
+    "#838BA7",
+    "#949CBB",
+    "#A5ADCE",
+    "#B5BFE2",
+    "#C6D0F5",
+    "#8CAAEE",
+    "#85C1DC",
+    "#99D1DB",
+    "#81C8BE",
+    "#A6D189",
+    "#E5C890",
+    "#EF9F76",
+    "#E78284",
+    "#CA9EE6",
+    "#F4B8E4",
+    "#EEBEBE",
+    "#F2D5CF"
+  ],
+
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#292C3C" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#303446" } },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "color": { "solid": { "color": "#C6D0F5" } }
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#B5BFE2" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#A5ADCE" } }
+          }
+        ]
+      }
+    }
+  }
+}

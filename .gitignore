@@ -1,0 +1,52 @@
+# Entorno Virtual
+.venv/
+env/
+venv/
+ENV/
+
+# Secretos y Configuracion Sensible
+.env
+profiles.yml
+*.pem
+
+# Archivos Obsoletos
+legacy/
+
+# dbt (Data Build Tool)
+dbt_lending_club/target/
+dbt_lending_club/dbt_packages/
+dbt_lending_club/logs/
+
+# Machine Learning (MLflow y Modelos)
+mlruns/
+mlflow.db
+mlflow.db.wal
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python Cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de Datos Grandes (No subir a GitHub)
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.tar
+*.zip
+*.gzip
+*.gz
+data
+
+# Archivos de Sistema y Varios
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# PBI
+*.pbix
