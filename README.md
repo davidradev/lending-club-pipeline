@@ -54,9 +54,15 @@ Once the best model is obtained, mass inference is performed on 100% of the clie
 
 ## Visualization (Power BI)
 The final dashboard connects to Azure PostgreSQL to cross-reference loan facts with ML model predictions.
--   **Risk Analysis**: Distribution of `risk_score` by credit grade.
--   **Performance**: Monitoring of actual defaults vs. predictions.
--   **Segmentation**: Identification of high-risk profiles based on occupation and income levels.
+
+- **Risk Analysis**: Distribution of `risk_score` by credit grade.
+- **Performance**: Monitoring of actual defaults vs. predictions.
+- **Segmentation**: Identification of high-risk profiles based on occupation and income levels.
+
+![Dashboard preview](docs/images/pbi.png)
+
+> [!IMPORTANT]  
+> **[View the Interactive Power BI Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDcxODhjNzctMjE2NS00ZmFjLTg0ODMtM2JjMGNhYzk3MjVhIiwidCI6IjUyM2M1NTkwLTg4YWMtNDk4ZC1hZTkyLWJjM2Y0ZjNmN2IyOCIsImMiOjl9)**
 
 ## Configuration
 
